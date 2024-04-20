@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="images/TK_Logo.png" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!------Navbar------>
+    <header class="header">
+      <a href="index.html" class="logo">Portfolio</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!------Home------>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi, It's me</h3>
+        <h1>Thanish kumar</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+      </div>
+      <div class="home-img">
+        <img src="images/home.png" alt="" />
+      </div>
+    </section>
+
+    <!------About------>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/about.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h1 class="heading">About <span>Me</span></h1>
+        <p>
+          I'm a Front-End Developer with a keen interest in
+           and love for developing user-friendly front-end applications.
+            With each project, I attempt to create engaging solutions by believing
+             in the power of code to bring ideas to life. I'm always looking 
+             to improve my skills by learning new things. I am a responsible and 
+             industrious individual who can adapt to any challenging situation. 
+             Designing with intention and coding with zeal. I am motivated to stay 
+             current on industry developments and advancements.
+        </p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('Education')">
+            <b>Education</b>
+          </p>
+          <p class="tab-links" onclick="opentab('Certifications')">
+            <b>Work Experience</b>
+          </p>
+        </div>
+        <div class="tab-contents active-tab" id="Education">
+          <ul>
+            <li>
+              <span>Oct 2020 - May 2023</span><br />Bachelor of Technology - Information Technology<br />
+              Kongu Engineering College<br/>Erode, Tamil Nadu
+            </li>
+            <li>
+              <span>Jun 2017 - May 2020</span><br />Diploma - Information Technology<br />
+              PSG Polytechnic College<br/>Coimbatore, Tamil Nadu
+            </li>
+            <li>
+              <span>Jun 2016 - May 2017</span><br />10th Standard<br />
+              Adharsh Vidhyalaya Matric Hr Sec School<br/>Erode, Tamil Nadu
+            </li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="Certifications">
+          <ul>
+            <li>
+              <span>Feb 2024 - Present</span><br />UI/UX Designer Intern<br />
+              String Consultants<br/>Erode, Tamil Nadu
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!------Skills------>
+    <section class="skills" id="skills">
+      <h1 class="heading">My <span>Skills</span></h1>
+
+      <div class="inner1">
+        <div class="inner-main1">
+          <h1>Soft Skills</h1>
+        </div>
+        <div class="container1">
+          <div class="skill-box1">
+            <div class="skill-title1">
+              <div class="img2">
+                <img src="images/Communication.png" class="skill-icon1" />
+              </div>
+              <h3>Communication</h3>
+            </div>
+          </div>
+
+          <div class="skill-box1">
+            <div class="skill-title1">
+              <div class="img1">
+                <img src="images/Adaptability.png" class="skill-icon1" />
+              </div>
+              <h3>Adaptability</h3>
+            </div>
+          </div>
+
+          <div class="skill-box1">
+            <div class="skill-title1">
+              <div class="img1">
+                <img src="images/Time Management.png" class="skill-icon1" />
+              </div>
+              <h3>Time Management</h3>
+            </div>
+          </div>
+
+          <div class="skill-box1">
+            <div class="skill-title1">
+              <div class="img1">
+                <img src="images/Creativity.png" class="skill-icon1" />
+              </div>
+              <h3>Creativity</h3>
+            </div>
+          </div>
+
+          <div class="skill-box1">
+            <div class="skill-title1">
+              <div class="img1">
+                <img src="images/Team_Player.png" class="skill-icon1" />
+              </div>
+              <h3>Team Player</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="inner2">
+        <div class="inner-main2">
+          <h1>Technical Skills</h1>
+        </div>
+        <div class="container2">
+          <div class="skill-box2">
+            <div class="skill-title2">
+              <div class="img2">
+                <img src="images/Figma.png" class="skill-icon2" />
+              </div>
+              <h3>Figma</h3>
+            </div>
+          </div>
+
+          <div class="skill-box2">
+            <div class="skill-title2">
+              <div class="img2">
+                <img src="images/Canva.png" class="skill-icon2" />
+              </div>
+              <h3>Canva</h3>
+            </div>
+          </div>
+
+          <div class="skill-box2">
+            <div class="skill-title2">
+              <div class="img2">
+                <img src="images/WordPress.png" class="skill-icon2" />
+              </div>
+              <h3>Wordpress</h3>
+            </div>
+          </div>
+
+          <div class="skill-box2">
+            <div class="skill-title2">
+              <div class="img2">
+                <img src="images/HTML_Logo.png" class="skill-icon2" />
+              </div>
+              <h3>HTML</h3>
+            </div>
+          </div>
+
+          <div class="skill-box2">
+            <div class="skill-title2">
+              <div class="img2">
+                <img src="images/CSS_Logo.png" class="skill-icon2" />
+              </div>
+              <h3>CSS</h3>
+            </div>
+          </div>
+
+          <div class="skill-box2">
+            <div class="skill-title2">
+              <div class="img2">
+                <img src="images/JS_Logo.png" class="skill-icon2" />
+              </div>
+              <h3>JavaScript</h3>
+            </div>
+          </div>
+          
+          <div class="skill-box2">
+            <div class="skill-title2">
+              <div class="img2">
+                <img src="images/React_Logo.png" class="skill-icon2" />
+              </div>
+              <h3>ReactJS</h3>
+            </div>
+          </div>
+
+          <div class="skill-box2">
+            <div class="skill-title2">
+              <div class="img2">
+                <img src="images/GitHub.png" class="skill-icon2" />
+              </div>
+              <h3>Github</h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+      <div class="inner3">
+        <div class="inner-main3">
+          <h1>Certification</h1>
+        </div>
+        <div class="container3">
+          <div class="skill-box3">
+            <div class="skill-title3">
+              <div class="img3">
+                <img src="images/web_technology.png" class="skill-icon3" />
+              </div>
+              <h3>Web Technology</h3>
+            </div>
+          </div>
+</section>
+
+    <!------Projects------>
+
+    <section class="portfolio" id="portfolio">
+      <div>
+        <h1 class="heading">My <span>Projects</span></h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/Project-3.png" />
+            <div class="layer">
+              <h3>Business Card Design</h3>
+              <p>I have used the figma and canva to create the business card design</p>
+              <a class="a1-11" href="https://www.behance.net/gallery/196436699/Transport-Business-Card" target="_blank"><i class='bx bx-link-external'></i></a>
+              <h5><b class="h5-11">Live</b></h5>
+              <a class="a1-21" href="https://github.com/ThanishkumarIT/Business-card-design" target="_blank"><i class='bx bx-link-external'></i></a>
+              <h5 class="h5-21"><b>Github</b></h5>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Project-2.png" />
+            <div class="layer">
+              <h3>Music Concert Website</h3>
+              <p>I made a music event website with ReactJS (HTML, CSS, JavaScript, Bootstrap, and jQuery)</p>
+              <a class="a1-1" href="https://music-concert-website.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+              <h5><b class="h5-1">Live</b></h5>
+              <a class="a1-2" href="https://github.com/ThanishkumarIT/Music-Concert" target="_blank"><i class='bx bx-link-external'></i></a>
+              <h5 class="h5-2"><b>Github</b></h5>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Project-1.png" />
+            <div class="layer">
+              <h3>My Portfolio</h3>
+              <p>I designed a portfolio using HTML, CSS, and JavaScript</p>
+              <a class="a1-11" href="https://my-portfolio-thanish-kumar-p.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+              <h5><b class="h5-11">Live</b></h5>
+              <a class="a1-21" href="https://github.com/ThanishkumarIT/My-Portfolio-Website" target="_blank"><i class='bx bx-link-external'></i></a>
+              <h5 class="h5-21"><b>Github</b></h5>
+            </div>
+          </div>
+          
+       
+          
+        </div>
+      </div>
+    </section>
+
+    <!------Contact------>
+    <section class="contact" id="contact">
+      <div>
+        <h1 class="heading">My <span>Contact</span></h1>
+      </div>
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <p><i class="bx bxl-gmail"></i> <b>Thanishkumarit@gmail.com</b></p>
+              <p><i class="bx bxs-phone"></i> <b>+91 8056757970</b></p>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/thanish-kumar-p/" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
+                <a href="https://dribbble.com/thanishkumaruiux" target="_blank"><i class="bx bxl-dribbble"></i></a>
+                <a href="https://www.behance.net/thanishkumaruiux" target="_blank"><i class="bx bxl-behance"></i></a>
+                <a href="https://github.com/ThanishkumarIT" target="_blank"><i class="bx bxl-github"></i></a>
+              </div>
+              <a href="images/Thanish kumar P_Resume.pdf" target="_blank" class="btn btn2" ><b>Download Resume</b></a>
+            </div>
+            
+            <div class="contact-right">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d418.1736557415527!2d77.7905020119448!3d11.437131381738663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1701410239598!5m2!1sen!2sin" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---Footer bottom---->
+    <footer class="footer">
+      <div class="footer-text">
+        <p><b>Copyright &copy; 2024 by Thanish kumar | All Rights Reserved</b></p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!---typed js----->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!----Js File----->
+    <script src="index.js"></script>
+  </body>
+</html>
