@@ -534,7 +534,7 @@ span{
 
 /***** projects section *****/
 .portfolio{
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     padding-bottom: 5%;
 } 
 
@@ -742,26 +742,6 @@ span{
     margin-left: 220px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .work:hover img{
     transform: scale(1.1);
 }
@@ -771,7 +751,26 @@ span{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*=========Conatct Section=============*/
+.contact{
+    background-color: var(--second-bg-color);
+}
 
 .contact-left{
     flex-basis: 35%;
@@ -849,7 +848,7 @@ span{
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .footer-text p{
