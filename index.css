@@ -249,7 +249,7 @@ span{
     background-color: var(--bg-color);
 }
 
-/***********Soft skills***********/
+/***********Technical skills***********/
 
 .inner-main1 h1{
     margin-bottom: 3.5rem;
@@ -377,6 +377,15 @@ span{
     align-items: center;
 }
 
+.img2_1{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+}
+
 .skill-title2 h3{
     font-size:15px;
     color: #fff;
@@ -472,6 +481,51 @@ span{
 
 
 
+/***** Certifications section *****/
+.certification{
+    background: var(--second-bg-color);
+    padding-bottom: 5%;
+} 
+
+.cert1-list1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.cert1{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cert1 img{
+    width: 50%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.cert1 h1{
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -534,6 +588,13 @@ span{
     font-size: 17px;
 }
 
+
+
+/****Project - 2****/
+
+
+
+
 .layer .a1-1{
     position: relative;
     margin-top: -10px;
@@ -580,7 +641,7 @@ span{
 
 
 
-
+/****Project - 1****/
 
 
 .layer .a1-11{
@@ -631,14 +692,13 @@ span{
 
 
 
+/****Project - 3****/
 
 
 
-
-
-.layer .a1-12{
+.layer .a1-32{
     position: relative;
-    margin-top: -18px;
+    margin-top: -48px;
     color: #0ef;
     text-decoration: none;
     font-size: 25px;
@@ -651,14 +711,17 @@ span{
     margin-left: -10px;
 }
 
-.layer .h5-12{
+.layer .h5-32{
     position: relative;
     margin-right: 90%;
     margin-top: -30%;
 }
 
 
-.layer .a1-22{
+
+
+
+.layer .a1-31{
     position: absolute;
     margin-top: 318px;
     color: #0ef;
@@ -673,7 +736,7 @@ span{
     margin-left: 220px;
 }
 
-.layer .h5-22{
+.layer .h5-31{
     position: absolute;
     margin-top: 385px;
     margin-left: 220px;
@@ -686,48 +749,6 @@ span{
 
 
 
-.layer .a1-13{
-    position: relative;
-    margin-top: -20px;
-    color: #0ef;
-    text-decoration: none;
-    font-size: 25px;
-    line-height: 60px;
-    background: white;
-    width: 50px;
-    height: 50px;
-    align-items: flex-start;
-    border-radius: 100%;
-    margin-left: -10px;
-}
-
-.layer .h5-13{
-    position: relative;
-    margin-right: 90%;
-    margin-top: -30%;
-}
-
-
-.layer .a1-23{
-    position: absolute;
-    margin-top: 318px;
-    color: #0ef;
-    text-decoration: none;
-    font-size: 25px;
-    line-height: 60px;
-    background: white;
-    width: 50px;
-    height: 50px;
-    align-items: flex-start;
-    border-radius: 100%;
-    margin-left: 220px;
-}
-
-.layer .h5-23{
-    position: absolute;
-    margin-top: 385px;
-    margin-left: 220px;
-}
 
 
 
@@ -896,6 +917,10 @@ span{
         padding: 10rem 3% 2rem;
     }
 
+    .certification{
+        padding-bottom: 7rem;
+    }
+
     .portfolio{
         padding-bottom: 7rem;
     }
@@ -918,6 +943,7 @@ span{
     .row{
         grid-template-columns: 1fr;
     }
+    
 }
 
 @media screen and (max-width: 650px){
@@ -926,6 +952,9 @@ span{
     }
     .container2{
         grid-template-columns: 1fr;
+    }
+    .cert1 img{
+        width: 100%;
     }
 }
 
@@ -989,6 +1018,14 @@ span{
         margin-top: 4rem;
     }
 
+    .certification h2{
+        margin-bottom: 3rem;
+    }
+
+    .certification-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .portfolio h2{
         margin-bottom: 3rem;
     }
@@ -1000,23 +1037,41 @@ span{
     .row{
         grid-template-columns: 1fr;
     }
+    .cert1 img{
+        width: 100%;
+    }
 }
 
 @media (max-width:617px){
+    .certification-container{
+        grid-template-columns: 1fr;
+    }
+
     .portfolio-container{
         grid-template-columns: 1fr;
     }
+    .cert1 img{
+        width: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 600px){
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+    .cert1 img{
+        width: 100%;
+    }
 }
 
 @media (max-width:450px) {
     html{
         font-size: 50%;
+    }
+
+    .cert1 img{
+        width: 100%;
     }
 }
 
@@ -1032,6 +1087,9 @@ span{
     .footer p{
         text-align: center;
         margin-top: 2rem;
+    }
+    .cert1 img{
+        width: 100%;
     }
 }
 
