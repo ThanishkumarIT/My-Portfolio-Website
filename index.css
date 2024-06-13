@@ -699,7 +699,6 @@ span{
 
 .layer .a1-32{
     position: relative;
-    margin-top: -48px;
     color: #0ef;
     text-decoration: none;
     font-size: 25px;
@@ -750,6 +749,285 @@ span{
 .work:hover .layer{
     height: 100%;
 }
+
+
+
+
+
+
+
+/****Project - 4****/
+
+
+
+.layer .a1-42{
+    position: relative;
+    margin-top: -20px;
+    color: #0ef;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 60px;
+    background: white;
+    width: 50px;
+    height: 50px;
+    align-items: flex-start;
+    border-radius: 100%;
+    margin-left: -10px;
+}
+
+.layer .h5-42{
+    position: relative;
+    margin-right: 90%;
+    margin-top: -30%;
+}
+
+
+
+
+
+.layer .a1-41{
+    position: absolute;
+    margin-top: 318px;
+    color: #0ef;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 60px;
+    background: white;
+    width: 50px;
+    height: 50px;
+    align-items: flex-start;
+    border-radius: 100%;
+    margin-left: 220px;
+}
+
+.layer .h5-41{
+    position: absolute;
+    margin-top: 385px;
+    margin-left: 220px;
+}
+
+.work:hover img{
+    transform: scale(1.1);
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+
+
+
+
+
+
+
+/****Project - 5****/
+
+
+
+.layer .a1-52{
+    position: relative;
+    margin-top: -30px;
+    color: #0ef;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 60px;
+    background: white;
+    width: 50px;
+    height: 50px;
+    align-items: flex-start;
+    border-radius: 100%;
+    margin-left: -10px;
+}
+
+.layer .h5-52{
+    position: relative;
+    margin-right: 90%;
+    
+}
+
+
+
+
+
+.layer .a1-51{
+    position: absolute;
+    margin-top: 318px;
+    color: #0ef;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 60px;
+    background: white;
+    width: 50px;
+    height: 50px;
+    align-items: flex-start;
+    border-radius: 100%;
+    margin-left: 220px;
+}
+
+.layer .h5-51{
+    position: absolute;
+    margin-top: 385px;
+    margin-left: 220px;
+}
+
+.work:hover img{
+    transform: scale(1.1);
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+/****Project - 6****/
+
+
+
+.layer .a1-62{
+    position: relative;
+    margin-top: -20px;
+    color: #0ef;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 60px;
+    background: white;
+    width: 50px;
+    height: 50px;
+    align-items: flex-start;
+    border-radius: 100%;
+    margin-left: -10px;
+}
+
+.layer .h5-62{
+    position: relative;
+    margin-right: 90%;
+    
+}
+
+
+
+
+
+.layer .a1-61{
+    position: absolute;
+    margin-top: 318px;
+    color: #0ef;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 60px;
+    background: white;
+    width: 50px;
+    height: 50px;
+    align-items: flex-start;
+    border-radius: 100%;
+    margin-left: 220px;
+}
+
+.layer .h5-61{
+    position: absolute;
+    margin-top: 385px;
+    margin-left: 220px;
+}
+
+.work:hover img{
+    transform: scale(1.1);
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+/****Project - 7****/
+
+
+
+.layer .a1-72{
+    position: relative;
+    margin-top: -20px;
+    color: #0ef;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 60px;
+    background: white;
+    width: 50px;
+    height: 50px;
+    align-items: flex-start;
+    border-radius: 100%;
+    margin-left: -10px;
+}
+
+.layer .h5-72{
+    position: relative;
+    margin-right: 90%;
+    
+}
+
+
+
+
+
+.layer .a1-71{
+    position: absolute;
+    margin-top: 318px;
+    color: #0ef;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 60px;
+    background: white;
+    width: 50px;
+    height: 50px;
+    align-items: flex-start;
+    border-radius: 100%;
+    margin-left: 220px;
+}
+
+.layer .h5-71{
+    position: absolute;
+    margin-top: 385px;
+    margin-left: 220px;
+}
+
+.work:hover img{
+    transform: scale(1.1);
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
