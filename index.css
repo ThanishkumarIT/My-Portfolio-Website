@@ -1104,13 +1104,13 @@ span{
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
-    color: #0ef;
+    color: rgb(255, 255, 255);
     transition: background 0.5s;
 }
 
 .btn:hover{
-    background: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 255, 255);
+    background: #e2e2e2;
+    border: 1px solid #e2e2e2;
     color: black;
 }
 
