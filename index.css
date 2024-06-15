@@ -1063,6 +1063,7 @@ span{
 
 .contact-left p{
     margin-top: 30px;
+    font-size: 18px;
 }
 
 .row{
@@ -1103,12 +1104,14 @@ span{
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
-    color: #fff;
+    color: #0ef;
     transition: background 0.5s;
 }
 
 .btn:hover{
-    background: #0ef;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    color: black;
 }
 
 .btn.btn2{
